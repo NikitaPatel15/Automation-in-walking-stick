@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Speech To Text</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="speech_prompt">Say something&#8230;</string>
+    <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
+    <string name="tap_on_mic">Tap on mic to speak</string>
+    <string name="str_hnt_lat">Enter Latitude</string>
+    <string name="str_hnt_lng">Enter Longitude</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="str_btn_show">Show Location in Map</string>
+    <string name="main_page">Main page</string>
+    <string name="sensor">Click on bottom for Activate and top for deactivate sensors</string>
+    <string name="location_button">Location Button</string>
+    <string name="contact_list">Contact List</string>
+    <string name="Map">Listen your location Again </string>
+    <string name="selected_contact">Selected Contacts</string>
+</resources>

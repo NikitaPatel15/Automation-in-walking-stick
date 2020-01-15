@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+
+        >
+        <Button
+            android:id="@+id/Googlemap"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:text="Google Map"
+            android:background= "#21498E"
+            android:fontFamily="casual"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            />
+
+        <Button
+            android:id="@+id/Set_Contacts"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:text="Select contact"
+            android:background= "#00860E"
+            android:textSize="25dp"
+            android:textColor="#FFFFFF"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+
+        >
+
+        <Button
+            android:id="@+id/emergency"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:text="send emergency message"
+            android:background= "#C8191B"
+            android:textSize="25dp"
+            android:textColor="#FFFFFF"
+            android:fontFamily="casual"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/Sensors"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:text="deactivate sensors"
+            android:fontFamily="casual"
+            android:background= "#F2C506"
+            android:textSize="25dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"/>
+
+
+
+
+        </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+

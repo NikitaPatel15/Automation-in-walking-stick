@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Person Name"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/black" />
+
+
+    <TextView
+        android:id="@+id/phone_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/checknum"
+        android:text="Contact number"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/black" />
+
+    <CheckBox
+        android:id="@+id/checknum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:focusable="false"
+        android:clickable="false"
+        android:focusableInTouchMode="false"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>
